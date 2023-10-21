@@ -1,0 +1,25 @@
+<html>
+<link rel="stylesheet" href="game.css">
+<script src="index.js"></script>
+<div class="wrapper">
+    <h1> STONE PAPPER SCISSOR</h1>
+    <h2 id="result">Start Game</h2>
+    <div id="choice">Take your choice</div>
+    <div class="buttonWrapper">
+        <button id="rock" class="buttonStyle" onclick="buttonClick(this)">
+            &#9994;
+        </button>
+        <button id="paper" class="buttonStyle" onclick="buttonClick(this)">
+            &#9995;
+         </button>
+        <button id="scissor" class="buttonStyle" onclick="buttonClick(this)">
+            &#9996;
+        </button>
+    </div>
+    <div id="comp-choice"></div>
+    <div id="game" style="display: none;margin: 5px 0;">
+        <Button onclick="restart()"> Restart</Button>
+    </div>
+</div>
+
+</html>

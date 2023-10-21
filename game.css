@@ -1,0 +1,15 @@
+.wrapper {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonStyle {
+    font-size: 30px;
+}
+
+.buttonWrapper {
+    margin: 10px 0;
+}
